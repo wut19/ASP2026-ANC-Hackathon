@@ -6,7 +6,7 @@
 
 Welcome, Engineers! You are now a Senior Audio Algorithm Engineer at a top-tier tech firm. Your mission is to design and implement the core ANC (Active Noise Cancellation) firmware for a next-generation in-ear headphone.
 
-In this **Human-AI Collaborative Hackathon**, you will have 150 minutes to leap from theoretical modeling to industrial-grade algorithm implementation using AI Coding tools (e.g., Cursor, GitHub Copilot, or ChatGPT).
+In this **Human-AI Collaborative Hackathon**, you will have 135 minutes to leap from theoretical modeling to industrial-grade algorithm implementation using AI Coding tools (e.g., Cursor, GitHub Copilot, or ChatGPT).
 
 ---
 
@@ -129,7 +129,7 @@ The template file `anc_algorithm.py` has a simple structure:
 
 ---
 
-### 7. Hackathon Timeline (150 Minutes)
+### 7. Hackathon Timeline (135 Minutes)
 
 
 | Time              | Segment                 | Key Actions                                                     |
