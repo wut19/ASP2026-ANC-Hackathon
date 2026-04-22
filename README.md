@@ -62,6 +62,12 @@ All data is in the `data/` folder:
 
 **Signal parameters:** Sample rate = 16,000 Hz, Duration = 10 s
 
+> **💡 Why is `d[n]` provided instead of `P(z)`?**
+>
+> In a real ANC headphone, `d[n]` is not directly observable — the error microphone measures the superposition `e[n] = d[n] + S(z) * y[n]`. However, in this offline simulation there is no physical microphone, so we provide pre-computed `d[n]` for you to simulate the error signal in code: `e[n] = d[n] - y[n]`. This is equivalent to the error microphone reading in a real system — the algorithm logic is identical.
+>
+> `P(z)` itself is the **unknown system** that the adaptive filter `W(z)` must learn — if P(z) were given directly, there would be no need for an adaptive algorithm.
+
 ---
 
 ### 5. The Two-Phase Challenge
